@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/home/login.css">
+    <link href="css/home/styles.css" rel="stylesheet" />
+
+    
+    <script src="js/home/register.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="#page-top">행복한 식사</a>
+        <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/index">가게 목록</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/registration">가게 등록</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">마이페이지</a></li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+
+  <header class="masthead bg-primary text-white text-center">
+    <div class="container d-flex align-items-center flex-column">
+        <!-- Masthead Avatar Image-->
+        <!-- <img class="masthead-avatar mb-5" src="assets/img/hansik.png" alt="..." /> -->
+        <!-- Masthead Heading-->
+        <h1 class="masthead-heading text-uppercase mb-0">행복한 식사</h1><br><br>
+        <!-- Icon Divider-->
+        <div class="divider-custom divider-light">
+           <form class="search-bar">
+               <input type="text" name="query" placeholder="가게 검색">
+               <button type = "submit">검색</button>
+           </form>
+  
+           
+            <!-- <div class="divider-custom-line"></div> -->
+            <!-- <div class="divider-custom-icon"><i class="fas fa-star"></i></div> -->
+            <!-- <div class="divider-custom-line"></div> -->
+        </div>
+        <!-- Masthead Subheading-->
+        <p class="masthead-subheading font-weight-light mb-0"></p>
+    </div>
+  </header>
+    <!-- <input id = "id" type="text" placeholder="아이디"><br>
+    <input id = "psword" type="text" placeholder="비밀번호"><br>
+    <button>로그인</button> -->
+    <div class="login-page">
+        <div class="form">
+          <form class="login-form">
+            <input id = "id" type="text" placeholder="아이디"/>
+            <input id = "name" type="text" placeholder="이름"/>
+            <input id = "email" type="text" placeholder="이메일"/>
+            <input id = "psword" type="password" placeholder="비밀번호"/>
+            <input id = "confirmpsword" type="password" placeholder="비밀번호 확인"/>
+            <p id ="button">SIGN UP</p>
+            <p class="message">Already registered? <a href="/login">login</a></p>
+          </form>
+        </div>
+      </div>
+</body>
+</html>
